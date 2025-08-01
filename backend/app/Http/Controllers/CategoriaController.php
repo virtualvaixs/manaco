@@ -94,7 +94,6 @@ class CategoriaController extends Controller
     public function destroy(string $id)
     {
         //
-
         $categoria =  Categoria::find($id);
          if(!$categoria){
 
